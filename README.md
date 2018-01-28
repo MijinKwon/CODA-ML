@@ -5,7 +5,6 @@ CODA-ML: XML-based markup language format for modeling personalized qualitative 
 python-3.6.1
 
 [How to use]
-
 "codaml_converter.py" converts an input file ("codaml_converter_input.tsv") to an xml file ("codaml_examples.xml") compliant to codaml.
 The input file is in tab-separated values (tsv), in which each columns are delimited by tab.
 The first row of the input file is column headers, and will be ignored by "codaml_converter.py".
