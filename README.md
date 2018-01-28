@@ -17,15 +17,12 @@ The first column represents left-hand side (LHS) of a knowledge unit.
 LHS can be composed of one or more entity, separated by comma.
 Each entity is organized as "entity core@organ@tissue@cell".
 If any of organ, tissue, cell is not available, it can be referred as "NA" (not available).
-Entity core is represented as "entity type:entity name#molecule type#molecule modification#variant".
-Entity types are simplified to "GP", "CP", "BP", "MF", and "PH" for "gene product", "compound product", "biological process", "molecular function",
-and "phenotype", respectively.
-More than one entity core is can be separated by "&".
+Entity core is represented as "entity type:entity name#type#modification#isoform".
+Entity types are simplified to "GP", "CP", "BP", "MF", and "PH" for "gene product", "compound product", "biological process", "molecular function",and "phenotype", respectively. More than one entity core is can be separated by "&".
 
 2. Association
 
-Association can be one of the ten controlled vocabulary: Undirected link, Positive correlation, Negative correlation, Directed link, Positive cause,
-Negative cause, Positive increase, Negative decrease, Positive decrease, and Negative increase.
+Association can be one of the ten controlled vocabulary: Undirected link, Positive correlation, Negative correlation, Directed link, Positive cause, Negative cause, Positive increase, Negative decrease, Positive decrease, and Negative increase.
 
 3. RHS
 
