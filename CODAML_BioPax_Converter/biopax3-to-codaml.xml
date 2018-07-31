@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CODA_Knowledge_Units>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core/>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Molecular_Function>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0003700</Identifier>
+            </Ref_Identifier>
+          </Molecular_Function>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular function</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[transcription factor activity]</Description>
+      <Record_ID>GO:0003700</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9NTK8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15350</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15351</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Molecular_Function>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0003700</Identifier>
+            </Ref_Identifier>
+          </Molecular_Function>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular function</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[transcription factor activity]</Description>
+      <Record_ID>GO:0003700</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core/>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0008630</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[DNA damage response, signal transduction resulting in induction of apoptosis]</Description>
+      <Record_ID>GO:0008630</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9NTK8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15350</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15351</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0008630</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[DNA damage response, signal transduction resulting in induction of apoptosis]</Description>
+      <Record_ID>GO:0008630</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9NTK8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15350</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15351</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0006298</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[mismatch repair]</Description>
+      <Record_ID>GO:0006298</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13299</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13298</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13301</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13300</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13226</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9UGI3</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9UMT8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q00987</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13297</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0008285</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[downregulation of cell proliferation]</Description>
+      <Record_ID>GO:0008285</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core/>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0006298</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[mismatch repair]</Description>
+      <Record_ID>GO:0006298</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core/>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Biological_Process>
+            <Ref_Identifier>
+              <DBName>GENE ONTOLOGY</DBName>
+              <Identifier>GO:0008285</Identifier>
+            </Ref_Identifier>
+          </Biological_Process>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Predicate_In_Reference>gene ontology term for cellular process</Predicate_In_Reference>
+    <Reference>
+      <Name>GENE ONTOLOGY</Name>
+      <Description>[downregulation of cell proliferation]</Description>
+      <Record_ID>GO:0008285</Record_ID>
+    </Reference>
+  </CODA_Knowledge_Unit>
+  <CODA_Knowledge_Unit>
+    <Subject>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13299</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13298</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13301</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13300</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13226</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9UGI3</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9UMT8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q00987</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q13297</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Subject>
+    <Predicate>Undirected Link</Predicate>
+    <Object>
+      <Entity>
+        <Entity_Core>
+          <Gene>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>Q9NTK8</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15350</Identifier>
+            </Ref_Identifier>
+            <Ref_Identifier>
+              <DBName>UNIPROT</DBName>
+              <Identifier>O15351</Identifier>
+            </Ref_Identifier>
+            <Molecule_Specification>
+              <Molecule_Type>Protein</Molecule_Type>
+            </Molecule_Specification>
+          </Gene>
+        </Entity_Core>
+      </Entity>
+    </Object>
+    <Reference>
+      <Name>MINT</Name>
+    </Reference>
+    <Reference>
+      <Name>PUBMED</Name>
+      <Record_ID>11223036</Record_ID>
+    </Reference>
+    <Reference>
+      <Name>MINT</Name>
+      <Record_ID>MINT-14809</Record_ID>
+    </Reference>
+    <Evidence_Score>
+      <Item>
+        <Key>http://www.biopax.org/examples/myExample#confidence_score_5</Key>
+        <Value>5</Value>
+      </Item>
+    </Evidence_Score>
+  </CODA_Knowledge_Unit>
+</CODA_Knowledge_Units>

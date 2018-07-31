@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"
+ xml:base="http://coda.kaist.edu/codaml-biopax-examples/">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00448537">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00448537" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00448537</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00448537" />
+</bp:SmallMolecule>
+
+<bp:RelationshipXref rdf:about="RelationshipXref_Gene_ENSG00000091831_D006801-C0678222">
+ <bp:relationshipType rdf:resource="RelationshipTypeVocabulary_Marker/mechanism" />
+ <bp:dbVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2017</bp:dbVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Evidence score: manual curation(1)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reference Type: Database, Description: Manually curated data, Acquisition date: 2017</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C0678222</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTD</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00031703">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00031703</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000110092_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:InteractionVocabulary rdf:about="InteractionVocabulary_Associate">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Associate</bp:term>
+</bp:InteractionVocabulary>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000091831_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000091831" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000091831_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00005870">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005870" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00005870</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00001038">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00001038" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00001038</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:TissueVocabulary rdf:about="TissueVocabulary_D010053">
+ <bp:xref rdf:resource="UnificationXref_mesh_D010053" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[D010053]</bp:term>
+</bp:TissueVocabulary>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00005757">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005757" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00005757</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="Catalysis_Protein_ENSG00000108786_D006801.D001921">
+ <bp:controller rdf:resource="Protein_ENSG00000108786_D006801.D001921" />
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis among Protein_ENSG00000108786_D006801.D001921</bp:displayName>
+ <bp:controlled rdf:resource="BiochemicalReaction_SmallMolecule_CIDs00001038-SmallMolecule_CIDs22833512-SmallMolecule_CIDs00005870-SmallMolecule_CIDs00005886-SmallMolecule_CIDs00005757" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_React" />
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:dataSource rdf:resource="Provenance_Recon2" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="UnificationXref_mesh_D006107">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006107</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mesh</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000108786_D006801.D001921">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000108786" />
+ <bp:organism rdf:resource="BioSource_D006801.D001921" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000108786_D006801.D001921</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="UnificationXref_mesh_D010053">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D010053</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mesh</bp:db>
+</bp:UnificationXref>
+
+<bp:BioSource rdf:about="BioSource_D006801.D010053">
+ <bp:xref rdf:resource="UnificationXref_mesh_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801.D010053</bp:displayName>
+ <bp:tissue rdf:resource="TissueVocabulary_D010053" />
+</bp:BioSource>
+
+<bp:BioSource rdf:about="BioSource_D006801">
+ <bp:xref rdf:resource="UnificationXref_mesh_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801</bp:displayName>
+</bp:BioSource>
+
+<bp:BiochemicalReaction rdf:about="BiochemicalReaction_Protein_ENSG00000139687_D006801-Protein_ENSG00000139687_D006801_Phosphorylation">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction among Protein_ENSG00000139687_D006801, Protein_ENSG00000139687_D006801_Phosphorylation</bp:displayName>
+ <bp:right rdf:resource="Protein_ENSG00000139687_D006801_Phosphorylation" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Phosphorylation" />
+ <bp:left rdf:resource="Protein_ENSG00000139687_D006801" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Environmental context: [Phenotype: umls(C0678222)]</bp:comment>
+ <bp:dataSource rdf:resource="Provenance_KEGG" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00005886">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00005886</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSP00000221421">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSP00000221421</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000012048_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000012048" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000012048_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:DnaReference rdf:about="DnaReference_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DnaReference_ENSG00000110092_D006801</bp:displayName>
+</bp:DnaReference>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs22833512">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs22833512" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs22833512</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs22833512" />
+</bp:SmallMolecule>
+
+<bp:TemplateReactionRegulation rdf:about="TemplateReactionRegulation_Protein_ENSG00000091831_D006801">
+ <bp:controlled rdf:resource="TemplateReaction_Rna_ENSG00000110092_D006801" />
+ <bp:controller rdf:resource="Protein_ENSG00000091831_D006801" />
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Expression" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TemplateReactionRegulation among Protein_ENSG00000091831_D006801</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Environmental context: [Phenotype: umls(C0678222)]</bp:comment>
+ <bp:dataSource rdf:resource="Provenance_KEGG" />
+</bp:TemplateReactionRegulation>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000110092">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000110092</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="Protein_ENSP00000221421_D006801.D010902">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000104826" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSP00000221421" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSP00000221421_D006801.D010902</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSP00000221421_D006801.D010902" />
+</bp:Protein>
+
+<bp:InteractionVocabulary rdf:about="InteractionVocabulary_Expression">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Expression</bp:term>
+</bp:InteractionVocabulary>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000163930_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000163930" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000163930_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="RelationshipXref_Gene_ENSG00000138039_D006801.D010053-GO:0001545">
+ <bp:relationshipType rdf:resource="RelationshipTypeVocabulary_Associate" />
+ <bp:dbVersion rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2015</bp:dbVersion>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Evidence score: manual curation(1)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reference Type: Database, Description: Gene association with GO in human, Acquisition date: 2017</bp:comment>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0001545</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO</bp:db>
+</bp:RelationshipXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000108786">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000108786</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Interaction rdf:about="Interaction_Protein_ENSP00000221421_D006801.D010902-SmallMolecule_CIDs00448537">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Associate" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interaction among Protein_ENSP00000221421_D006801.D010902, SmallMolecule_CIDs00448537</bp:displayName>
+ <bp:dataSource rdf:resource="Provenance_EndoNet" />
+ <bp:participant rdf:resource="SmallMolecule_CIDs00448537" />
+ <bp:participant rdf:resource="Protein_ENSP00000221421_D006801.D010902" />
+</bp:Interaction>
+
+<bp:Complex rdf:about="Complex_Protein_ENSG00000110092_D006801+Protein_ENSG00000135446_D006801">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex of Protein_ENSG00000110092_D006801, Protein_ENSG00000135446_D006801</bp:displayName>
+ <bp:component rdf:resource="Protein_ENSG00000110092_D006801" />
+ <bp:component rdf:resource="Protein_ENSG00000135446_D006801" />
+</bp:Complex>
+
+<bp:Protein rdf:about="Protein_ENSG00000163930_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000163930" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000163930_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000163930_D006801" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00001038">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00001038" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00001038</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00001038" />
+</bp:SmallMolecule>
+
+<bp:Provenance rdf:about="Provenance_neXtProt">
+ <bp:xref rdf:resource="PublicationXref_www.nextprot.org/entry/NX_P38398/interactions?isoform=NX_P38398-5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">neXtProt</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type: Database, Description: Manually curated data, Version: 2017, Acquisition date: 2017</bp:comment>
+</bp:Provenance>
+
+<bp:InteractionVocabulary rdf:about="InteractionVocabulary_Phosphorylation">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphorylation</bp:term>
+</bp:InteractionVocabulary>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000012048">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000012048</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00448537">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00448537" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00448537</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00005757">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005757" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00005757</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00005757" />
+</bp:SmallMolecule>
+
+<bp:Dna rdf:about="Dna_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dna_ENSG00000110092_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="DnaReference_ENSG00000110092_D006801" />
+</bp:Dna>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000139687">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000139687</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Rna rdf:about="Rna_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rna_ENSG00000110092_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="RnaReference_ENSG00000110092_D006801" />
+</bp:Rna>
+
+<bp:Evidence rdf:about="Evidence_manual%20curation.1">
+ <bp:confidence rdf:resource="Score_manual%20curation.1" />
+</bp:Evidence>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00005870">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005870" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00005870</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00005870" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="Protein_ENSG00000139687_D006801_Phosphorylation">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000139687" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000139687_D006801_Phosphorylation</bp:displayName>
+ <bp:feature rdf:resource="ModificationFeature_Phosphorylation" />
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000139687_D006801" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00005886">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005886" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00005886</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="Catalysis_Complex_Protein_ENSG00000110092_D006801+Protein_ENSG00000135446_D006801">
+ <bp:controller rdf:resource="Complex_Protein_ENSG00000110092_D006801+Protein_ENSG00000135446_D006801" />
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis among Complex_Protein_ENSG00000110092_D006801+Protein_ENSG00000135446_D006801</bp:displayName>
+ <bp:controlled rdf:resource="BiochemicalReaction_Protein_ENSG00000139687_D006801-Protein_ENSG00000139687_D006801_Phosphorylation" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Phosphorylation" />
+ <bp:catalysisDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:catalysisDirection>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Environmental context: [Phenotype: umls(C0678222)]</bp:comment>
+ <bp:dataSource rdf:resource="Provenance_KEGG" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSP00000221421_D006801.D010902">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000104826" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSP00000221421" />
+ <bp:organism rdf:resource="BioSource_D006801.D010902" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSP00000221421_D006801.D010902</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00445154">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00445154" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00445154</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00445154" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs22833512">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs22833512</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000091831">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000091831</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="Protein_ENSG00000135446_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000135446" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000135446_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000135446_D006801" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSP00000312236_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000012048" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSP00000312236" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSP00000312236_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:InteractionVocabulary rdf:about="InteractionVocabulary_Protein-protein%20interaction">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein-protein interaction</bp:term>
+</bp:InteractionVocabulary>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00445154">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00445154" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00445154</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000135446_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000135446" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000135446_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:TemplateReaction rdf:about="TemplateReaction_Rna_ENSG00000110092_D006801">
+ <bp:template rdf:resource="Dna_ENSG00000110092_D006801" />
+ <bp:product rdf:resource="Rna_ENSG00000110092_D006801" />
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TemplateReaction among Rna_ENSG00000110092_D006801</bp:displayName>
+ <bp:participant rdf:resource="Dna_ENSG00000110092_D006801" />
+ <bp:participant rdf:resource="Rna_ENSG00000110092_D006801" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Expression" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Environmental context: [Phenotype: umls(C0678222)]</bp:comment>
+ <bp:dataSource rdf:resource="Provenance_KEGG" />
+</bp:TemplateReaction>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00005886">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00005886" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00005886</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00005886" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="Protein_ENSP00000312236_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000012048" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSP00000312236" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSP00000312236_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSP00000312236_D006801" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="PublicationXref_https://www.ncbi.nlm.nih.gov/pubmed/11244506">
+ <bp:url rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/pubmed/11244506</bp:url>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="PublicationXref_www.genome.jp/kegg-bin/show_pathway?hsa05224">
+ <bp:url rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">www.genome.jp/kegg-bin/show_pathway?hsa05224</bp:url>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="Protein_ENSG00000091831_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000091831" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000091831_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000091831_D006801" />
+</bp:Protein>
+
+<bp:Protein rdf:about="Protein_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000110092_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000110092_D006801" />
+</bp:Protein>
+
+<bp:Provenance rdf:about="Provenance_EndoNet">
+ <bp:xref rdf:resource="PublicationXref_endonet.bioinf.med.uni-goettingen.de/hormone/ENH00038" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EndoNet</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type: Database, Description: Manually curated data, Version: 2017, Acquisition date: 2017</bp:comment>
+</bp:Provenance>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000163930">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000163930</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSP00000312236">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSP00000312236</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:CellVocabulary rdf:about="CellVocabulary_D006107">
+ <bp:xref rdf:resource="UnificationXref_mesh_D006107" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[D006107]</bp:term>
+</bp:CellVocabulary>
+
+<bp:Provenance rdf:about="Provenance_Recon2">
+ <bp:xref rdf:resource="PublicationXref_https://vmh.uni.lu/#reaction/HSD17B1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Recon2</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type: Database, Description: Manually curated data, Version: 2017, Acquisition date: 2017</bp:comment>
+</bp:Provenance>
+
+<bp:Gene rdf:about="Gene_ENSG00000138039_D006801.D010053">
+ <bp:xref rdf:resource="RelationshipXref_Gene_ENSG00000138039_D006801.D010053-GO:0001545" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000138039" />
+ <bp:organism rdf:resource="BioSource_D006801.D010053" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene_ENSG00000138039_D006801.D010053</bp:displayName>
+</bp:Gene>
+
+<bp:Protein rdf:about="Protein_ENSG00000139687_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000139687" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000139687_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000139687_D006801" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="BioSource_D006801.D001921">
+ <bp:xref rdf:resource="UnificationXref_mesh_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801.D001921</bp:displayName>
+ <bp:tissue rdf:resource="TissueVocabulary_D001921" />
+</bp:BioSource>
+
+<bp:RelationshipTypeVocabulary rdf:about="RelationshipTypeVocabulary_Associate">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Associate</bp:term>
+</bp:RelationshipTypeVocabulary>
+
+<bp:MolecularInteraction rdf:about="MolecularInteraction_Protein_ENSP00000312236_D006801-Protein_ENSG00000163930_D006801">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Protein-protein%20interaction" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MolecularInteraction among Protein_ENSP00000312236_D006801, Protein_ENSG00000163930_D006801</bp:displayName>
+ <bp:dataSource rdf:resource="Provenance_neXtProt" />
+ <bp:participant rdf:resource="Protein_ENSP00000312236_D006801" />
+ <bp:participant rdf:resource="Protein_ENSG00000163930_D006801" />
+</bp:MolecularInteraction>
+
+<bp:InteractionVocabulary rdf:about="InteractionVocabulary_React">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">React</bp:term>
+</bp:InteractionVocabulary>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs22833512">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs22833512" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs22833512</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="Protein_ENSG00000012048_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000012048" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000012048_D006801</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000012048_D006801" />
+</bp:Protein>
+
+<bp:MolecularInteraction rdf:about="MolecularInteraction_Protein_ENSG00000091831_D006801-Protein_ENSG00000012048_D006801">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Protein-protein%20interaction" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MolecularInteraction among Protein_ENSG00000091831_D006801, Protein_ENSG00000012048_D006801</bp:displayName>
+ <bp:dataSource rdf:resource="Provenance_PubMed" />
+ <bp:participant rdf:resource="Protein_ENSG00000091831_D006801" />
+ <bp:participant rdf:resource="Protein_ENSG00000012048_D006801" />
+</bp:MolecularInteraction>
+
+<bp:Interaction rdf:about="Interaction_SmallMolecule_CIDs00445154-SmallMolecule_CIDs00031703">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_Associate" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Interaction among SmallMolecule_CIDs00445154, SmallMolecule_CIDs00031703</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Environmental context: [Cell Line: clo(CLO0007606)]</bp:comment>
+ <bp:dataSource rdf:resource="Provenance_PubMed" />
+ <bp:participant rdf:resource="SmallMolecule_CIDs00031703" />
+ <bp:participant rdf:resource="SmallMolecule_CIDs00445154" />
+</bp:Interaction>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00001038">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00001038</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:Score rdf:about="Score_manual%20curation.1">
+ <bp:value rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1</bp:value>
+</bp:Score>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000135446">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000135446</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00005757">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00005757</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:BioSource rdf:about="BioSource_D006801.D010902">
+ <bp:xref rdf:resource="UnificationXref_mesh_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801.D010902</bp:displayName>
+ <bp:tissue rdf:resource="TissueVocabulary_D010902" />
+</bp:BioSource>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000138039">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000138039</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Provenance rdf:about="Provenance_KEGG">
+ <bp:xref rdf:resource="PublicationXref_www.genome.jp/kegg-bin/show_pathway?hsa05224" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type: Database, Description: Manually curated data, Version: 2017, Acquisition date: 2017</bp:comment>
+</bp:Provenance>
+
+<bp:BiochemicalReaction rdf:about="BiochemicalReaction_SmallMolecule_CIDs00001038-SmallMolecule_CIDs22833512-SmallMolecule_CIDs00005870-SmallMolecule_CIDs00005886-SmallMolecule_CIDs00005757">
+ <bp:evidence rdf:resource="Evidence_manual%20curation.1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction among SmallMolecule_CIDs00001038, SmallMolecule_CIDs22833512, SmallMolecule_CIDs00005870, SmallMolecule_CIDs00005886, SmallMolecule_CIDs00005757</bp:displayName>
+ <bp:right rdf:resource="SmallMolecule_CIDs00005886" />
+ <bp:right rdf:resource="SmallMolecule_CIDs00005757" />
+ <bp:interactionType rdf:resource="InteractionVocabulary_React" />
+ <bp:left rdf:resource="SmallMolecule_CIDs00001038" />
+ <bp:left rdf:resource="SmallMolecule_CIDs22833512" />
+ <bp:left rdf:resource="SmallMolecule_CIDs00005870" />
+ <bp:dataSource rdf:resource="Provenance_Recon2" />
+ <bp:conversionDirection rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LEFT_TO_RIGHT</bp:conversionDirection>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="UnificationXref_mesh_D010902">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D010902</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mesh</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="PublicationXref_https://vmh.uni.lu/#reaction/HSD17B1">
+ <bp:url rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">https://vmh.uni.lu/#reaction/HSD17B1</bp:url>
+</bp:PublicationXref>
+
+<bp:Gene rdf:about="Gene_ENSG00000091831_D006801">
+ <bp:xref rdf:resource="RelationshipXref_Gene_ENSG00000091831_D006801-C0678222" />
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000091831" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene_ENSG00000091831_D006801</bp:displayName>
+</bp:Gene>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00005870">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00005870</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="UnificationXref_ensembl_ENSG00000104826">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000104826</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:RelationshipTypeVocabulary rdf:about="RelationshipTypeVocabulary_Marker/mechanism">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Marker/mechanism</bp:term>
+</bp:RelationshipTypeVocabulary>
+
+<bp:BioSource rdf:about="BioSource_D006801.D010053.D006107">
+ <bp:cellType rdf:resource="CellVocabulary_D006107" />
+ <bp:xref rdf:resource="UnificationXref_mesh_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801.D010053.D006107</bp:displayName>
+ <bp:tissue rdf:resource="TissueVocabulary_D010053" />
+</bp:BioSource>
+
+<bp:RnaReference rdf:about="RnaReference_ENSG00000110092_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000110092" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RnaReference_ENSG00000110092_D006801</bp:displayName>
+</bp:RnaReference>
+
+<bp:UnificationXref rdf:about="UnificationXref_mesh_D006801">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D006801</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mesh</bp:db>
+</bp:UnificationXref>
+
+<bp:SequenceModificationVocabulary rdf:about="SequenceModificationVocabulary_Phosphorylation">
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphorylation</bp:term>
+</bp:SequenceModificationVocabulary>
+
+<bp:TissueVocabulary rdf:about="TissueVocabulary_D001921">
+ <bp:xref rdf:resource="UnificationXref_mesh_D001921" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[D001921]</bp:term>
+</bp:TissueVocabulary>
+
+<bp:Provenance rdf:about="Provenance_PubMed">
+ <bp:xref rdf:resource="PublicationXref_https://www.ncbi.nlm.nih.gov/pubmed/11244506" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type: Literature, Description: Data curated from biomedical literature, Version: 2001, Acquisition date: 2017</bp:comment>
+</bp:Provenance>
+
+<bp:ModificationFeature rdf:about="ModificationFeature_Phosphorylation">
+ <bp:modificationType rdf:resource="SequenceModificationVocabulary_Phosphorylation" />
+</bp:ModificationFeature>
+
+<bp:Protein rdf:about="Protein_ENSG00000108786_D006801.D001921">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000108786" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein_ENSG00000108786_D006801.D001921</bp:displayName>
+ <bp:entityReference rdf:resource="ProteinReference_ENSG00000108786_D006801.D001921" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00445154">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00445154</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="PublicationXref_www.nextprot.org/entry/NX_P38398/interactions?isoform=NX_P38398-5">
+ <bp:url rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">www.nextprot.org/entry/NX_P38398/interactions?isoform=NX_P38398-5</bp:url>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="ProteinReference_ENSG00000139687_D006801">
+ <bp:xref rdf:resource="UnificationXref_ensembl_ENSG00000139687" />
+ <bp:organism rdf:resource="BioSource_D006801" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ProteinReference_ENSG00000139687_D006801</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="UnificationXref_stitch_CIDs00448537">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIDs00448537</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stitch</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="SmallMolecule_CIDs00031703">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00031703" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMolecule_CIDs00031703</bp:displayName>
+ <bp:entityReference rdf:resource="SmallMoleculeReference_CIDs00031703" />
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="PublicationXref_endonet.bioinf.med.uni-goettingen.de/hormone/ENH00038">
+ <bp:url rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">endonet.bioinf.med.uni-goettingen.de/hormone/ENH00038</bp:url>
+</bp:PublicationXref>
+
+<bp:TissueVocabulary rdf:about="TissueVocabulary_D010902">
+ <bp:xref rdf:resource="UnificationXref_mesh_D010902" />
+ <bp:term rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[D010902]</bp:term>
+</bp:TissueVocabulary>
+
+<bp:SmallMoleculeReference rdf:about="SmallMoleculeReference_CIDs00031703">
+ <bp:xref rdf:resource="UnificationXref_stitch_CIDs00031703" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SmallMoleculeReference_CIDs00031703</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="UnificationXref_mesh_D001921">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D001921</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mesh</bp:db>
+</bp:UnificationXref>
+</rdf:RDF>
