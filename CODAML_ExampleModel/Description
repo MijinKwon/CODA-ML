@@ -1,0 +1,36 @@
+1. The RTK signaling pathway
+1) description
+The RTK signaling pathway involves the MAPK/ERK and PI3K/AKT pathways, which induce two cancer-related cell functions; proteasomal degradation and G1/S transition. 
+This pathway includes diverse kinases such as MEK and ERK that phosphorylate other proteins. 
+
+
+2) input file
+codaml_input_RTK signaling pathway.txt
+
+3) output file
+coml_output_RTK signaling pathway.xml
+
+
+2. The mechanism of the actions of cisplatin and gemcitabine
+1) description
+Two CASP9-encoded protein isoforms, CASP9a and CASP9b, have different effects on apoptosis. 
+CASP9a induces apoptosis whereas CASP9b inhibits this. 
+To promote apoptosis, cisplatin increases the amount of CASP9a, and gemcitabine decreases the activity of CASP9b
+
+2) input file
+codaml_input_mechanism of the actions of cisplatin and gemcitabine.txt
+
+3) output file
+codaml_output_mechanism of the actions of cisplatin and gemcitabine.xml
+
+
+3. The mechanism of genistein actions for hypertension 
+1) description
+The mechanism of genistein actions includes inter-cellular relations as well as intra-cellular relations of biological events.
+Genistein binds to the FGF1 protein in fibroblasts of the skin; the FGF1 protein activates the FGFR1 protein in the muscle cells of the heart; FGFR1 protein activates the UBC protein; the UBC protein activates the CTGF protein, and CTGF affects hypertension
+
+2) input file
+codaml_input_mechanisms of genistein action.txt
+
+3) output file
+codaml_output_mechanisms of genistein action.xml
